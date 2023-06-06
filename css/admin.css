@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    margin:0;padding:0;
+}
+body{
+    display:flex;
+}
+nav{
+    display: block;
+    width:15%;
+    min-height:100vh;  
+    background-color: rgb(132, 96, 76); 
+    border:5px solid darkkhaki;
+}
+nav li{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color :rgb(228, 188, 132);
+}
+.control a:hover{
+    background-color: rgb(138, 97, 53);
+}
+.profile h3{
+    font-style: italic;
+    color:rgb(68, 247, 247);
+}
+.profile a{
+    list-style-type:none;
+    text-decoration: none;
+}
+img{
+    width:125px;
+    height:200px;
+}
+.container-fluid{
+    width:85%;
+    background-color: rgb(160, 105, 51);
+}
+.adm_login 
+{
+    width:100%;
+    min-height:100vh;
+}
+form{
+    border:10px solid rgb(193,177,151);
+    border-radius: 15px 50px; 
+    background-color: rgb(195,244,247);   
+    width : 45% ;
+    margin: 3% auto;
+    display:block;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}

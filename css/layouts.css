@@ -1,0 +1,146 @@
+*{
+    margin : 0;padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(111, 78, 55);
+    overflow-x:hidden;
+}
+.banner{
+    background-image: url("../imgs/banner3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    opacity: 1;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0; 
+}
+
+.banner_logo{
+    width:30%;
+    justify-content: center;
+    align-items: center;
+}
+.banner_logo img{
+    margin:25% 230%;
+    position:relative;
+}
+
+ul li{
+    list-style: none;
+    margin-top : 30px;
+}
+ul a{
+    text-decoration: none;
+    display:block;
+}
+nav{
+    display: block;
+    height:auto;
+    background-color:rgb(128, 65, 30);
+    padding: 5px 10px;
+}
+nav a{
+    text-decoration: none;
+    margin:20px 10px;
+    padding: 10px 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    color:rgb(245, 248, 109);
+}
+nav a:hover{
+    background-color: rgb(228, 188, 132);
+    border-radius: 20px;
+}
+.cus_login form{
+    margin-top: 5rem;
+    border:10px solid rgb(193,177,151);
+    border-radius: 15px 50px; 
+    background-color: rgb(195,244,247);   
+    width : 45% ;
+    margin: 3% auto;
+    display:block;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+.cus_reg form{
+    margin-top: 5rem;
+    border:10px solid rgb(193,177,151);
+    border-radius: 15px 50px; 
+    background-color: rgb(195,244,247);   
+    width : 45% ;
+    margin: 3% auto;
+    display:block;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+label{
+    width:100%;
+    margin:4px;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+input{
+    width:50%;
+    margin:1px 20px;
+    text-align: left;
+}
+.button{
+    padding:20px;
+    margin:30px;
+}
+
+.row{
+    display:flex;
+    text-align: center;
+    padding :10px 10px;
+}
+.row label{
+    width:30%;
+    font-size: 1.1rem;
+    font-style: oblique;
+}
+.row input{
+    width:50%;
+    height :2rem;
+    font-size: 1.2rem;
+    border :3px solid rgb(51, 73, 18);
+    border-radius: 0.5rem;
+}
+.button{
+    text-align: center;
+    margin: 5px 10px;
+    
+}
+
+form a{
+    padding: 30px;
+    list-style: none;
+}
+#images{
+    list-style-type: none;
+    width: 650px;
+    border: 5px solid #000;
+    padding: 50px;
+    margin: 20px auto;
+}
+.btn{
+    border: 3px solod brown;
+}
+.footer{
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: rgb(250,235,215);
+}
+.footer a{
+	text-decoration: none;
+	color:#000;
+}
+
+
+
+
